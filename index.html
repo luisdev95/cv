@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Manuel Aldair Izquierdo Campos,manuel aldair izquierdo campos">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link rel="short icon" type="image/x-icon" href="bioingenieria/img/adn.ico">
+  <style>
+    body {
+      background: rgba(15, 5, 51, 0.10);
+    }
+
+    #botoncito {
+      color: white;
+      background: red;
+    }
+
+    .modificado {
+      color: green;
+    }
+
+    .btn-custom {
+      background: purple;
+      font-size: 20px;
+    }
+
+    /* Make the image fully responsive */
+
+    .carousel-inner img {
+      width: 100vw;
+      height: 44vh;
+    }
+
+    .bg-custom {
+      background: rgba(15, 5, 51, 0.9);
+      letter-spacing: 2px;
+      font-weight: 500;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .bg-custom2{
+      background: rgba(15, 5, 51, 0.9);
+      letter-spacing: 2px;
+      font-weight: 500;
+      font-family: Arial, Helvetica, sans-serif;
+      color:white;
+    }
+    .bg-custom3{
+      background: rgba(15, 5, 51, 0.4);
+      letter-spacing: 2px;
+      font-weight: 500;
+      font-family: Arial, Helvetica, sans-serif;
+      color:white;
+    }
+    .nav-link:hover {
+      color: white!important;
+    }
+    .n2:hover {
+      color: white!important;
+      background:  rgba(15, 5, 51, 0.9)!important;
+    }
+    .col.a {
+      margin-top: 15px;
+      margin-left: 10px;
+      margin-bottom: 15px;
+    }
+
+    .col.b {
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+    .fvhover:hover{
+      background-image: url(...img/fb2.png)
+    }
+    .div-custom{
+      text-align: center;
+
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/a.jpg" alt="bio" width="1100" height="500">
+          <div class="carousel-caption">
+            <h3>ALTRUISMO</h3>
+            <p>PENSAMOS HOY PARA UN MEJOR MAÑANA</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/b.jpg" alt="recursos" width="1100" height="500">
+          <div class="carousel-caption">
+            <h3>INNOVACION</h3>
+            <p>MI FUTURO ES TU FUTURO</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/c.jpg" alt="humanidades" width="1100" height="500">
+          <div class="carousel-caption">
+            <h3>UNIDAD</h3>
+            <p>HOY SOMOS UNO</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col a text-justify">
+        <h1>¿Que es la Bioingenierìa?</h1>
+        <p>La Bioingeniería es una de las disciplinas más jóvenes de la ingeniería en la que los principios y herramientas de
+          la ingeniería, la ciencia y la tecnología se aplican a los problemas presentados por la biología y la medicina.Esta
+          carrera fue creada con el objetivo de dar soluciones a la problemática del ámbito de la salud mediante la aplicación
+          de modernos métodos tecnológicos.La fabricación, la importación y la exportación de nueva y compleja tecnología
+          médica, y la necesidad de normativas que rijan en todos los aspectos de la misma, hacen que la demanda de Bioingenieros
+          se haga cada vez más relevante y que diferentes ámbitos prestadores de salud requieran de sus servicios. </p>
+        <br>
+      
+      </div>
+
+      <div class="col b" style="text-align:center;">
+        <img class="rounded-circle" src="img/d.jpg" width="250" height="250">
+      </div>
+    </div>
+    <div>
+
+    </div>
+  </div>
+  <nav class="navbar sticky-top navbar-expand-sm bg-custom navbar-dark justify-content-between">
+    <!-- Brand/logo -->
+    <a class="navbar-brand" href="#">BioNews</a>
+
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#frases">Frases celebres</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#pioneros">Pioneros en Bioingenieria</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#aplicaciones">Aplicaciones</a>
+
+      </li>
+    </ul>
+  </nav>
+
+
+  <div class="container">
+
+    <br>
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#menu1">Menu 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#menu2">Menu 2</a>
+      </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div id="home" class="container tab-pane active">
+        <br>
+        <h3>Historia</h3>
+        <p>Hay autores que indican que existe la ingeniería biomédica desde que se aplicaron remedios a problemas particulares
+          del individuo como una prótesis del dedo gordo del pie que fue descubierta en una tumba egipcia con una antigüedad
+          de más de 3000 años.3 Otros autores mencionan a los dibujos anatómicos de Leonardo Da Vinci y sus aproximaciones
+          a brazos de palanca o los trabajos de Luigi Galvani y de lord Kelvin sobre la conducción eléctrica en los seres
+          vivos.4 No obstante, el desarrollo de la instrumentación eléctrica y electrónica produjo una explosión de resultados
+          y se puede considerar como uno de los orígenes más cercanos de la ingeniería biomédica. Esto se da principalmente
+          entre los años de 1890 y 1930. Ejemplos de esto son los diseños para el registro de señales electrofisiológicas,
+          comenzando por los registros de A. D. Waller en corazones de humanos (1887), el refinamiento de la técnica por
+          parte de W. Einthoven al desarrollar un galvanómetro de cuerda (1901) y la aplicación de este al registro de señales
+          electroencefalográficas en humanos por Berger (1924). La instrumentación electrónica a partir de tubos de vacío
+          se empleó por E. Lovett Garceau para amplificar estas señales eléctricas y el primer sistema de electroencefalógrafo
+          comercial de tres canales fue construido por Alfred Grass en 1935. Otro ejemplo es el desarrollo de la instrumentación
+          en imagenología. Desde el descubrimiento de los rayos-X por Röntgen en 1895 hasta su primera aplicación en biomedicina
+          pasó una semana. Desde 1896, Siemens y General Electric ya vendían estos sistemas. En la actualidad, los nuevos
+          desarrollos en imagenología han tomado mucho más tiempo en lograr su aplicación clínica. El principio de resonancia
+          magnética se descubrió en 1946, pero no fue sino hasta 30 años después, que se pudo desarrollar un sistema para
+          uso en humanos<strong id="pioneros">.</strong></p>
+      </div>
+      <div id="menu1" class="container tab-pane fade">
+        <br>
+        <h3>Campos de acción</h3>
+        <p>En sus inicios, esta disciplina estuvo ligada fundamentalmente a la aplicación de técnicas de ingeniería eléctrica
+          y electrónica para la construcción de equipos médicos (instrumentación médica), así como al diseño de prótesis
+          y ortesis (biomecánica y rehabilitación). Posteriormente, una parte muy importante de las aplicaciones de la ingeniería
+          a la medicina fue la instrumentación para la adquisición de imágenes del cuerpo humano (imagenología médica). A
+          partir del desarrollo de los ordenadores, la importancia de la instrumentación fue disminuyendo, mientras que el
+          procesamiento de las señales adquiridas cobró mayor ímpetu debido a que fue posible obtener información adicional
+          a partir de las señales que la instrumentación proporcionaba, y que no era visible directamente a partir de los
+          trazos puros (procesamiento de señales biomédicas). En la actualidad la disciplina está ligada también a otras
+          como la genómica y proteómica (biología computacional). Existen las especialidades en ingeniería clínica.</p>
+      </div>
+      <div id="menu2" class="container tab-pane fade">
+        <br>
+        <h3>Bioingeniería para la medicina del futuro </h3>
+
+        <p>El futuro de la medicina pasará por una medicina personalizada con plataformas de diagnóstico portátiles, dispositivos
+          móviles ponibles y otros avances tecnológicos, que llevarán a una atención sanitaria más eficaz, económica y accesible.
+          Los investigadores del IBEC utilizan sus técnicas, tecnología y herramientas de bioingeniería para una mejor comprensión
+          de la conducta de las proteínas, las células, los tejidos y los órganos del cuerpo, o para el desarrollo de soluciones
+          como nanocápsulas para la administración dirigida de medicamentos, nanoherramientas para el estudio de los sistemas
+          biológicos, actuadores moleculares que se pueden conmutar con luz y órganos in vitro “en un chip” para modelos
+          de enfermedades. Además, estudian los mecanismos e implicaciones fisiológicas que sustentan las fuerzas mecánicas
+          en biología, como el comportamiento mecánico de las células y sus interacciones con el microentorno, o los mecanismos
+          dinámicos que intervienen en la cicatrización de tejidos, la morfogénesis y la invasión celular colectiva en el
+          cáncer.
+        </p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container" id="pioneros">
+    <h2>Pioneros en Bioingenieria</h2>
+
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#collapseOne">
+            Leonardo da Vinci
+          </a>
+        </div>
+        <div id="collapseOne" class="collapse show" data-parent="#accordion">
+          <div class="card-body">
+            Pintor, filósofo, escultor, poeta e inventor italiano, Leonardo Da Vinci.La bioingeniería es en gran medida producto de esa
+            mirada.“Esta disciplina permitió diseñar prótesis médicas o crear instrumentos para medir la frecuencia cardíaca,
+            la presión arterial o las ondas cerebrales”, indicó Valentinuzzi. Y agregó: “Se podría decir que Leonardo hizo
+            muchos estudios que sentaron las bases de esa disciplina.”Según describió Valentinuzzi, cuando Da Vinci comenzó
+            a estudiar pintura bajo el abrigo de Verrocchio, éste lo estimuló a estudiar anatomía. El joven estudiante quiso
+            ir más allá. “Con permiso del hospital de Florencia comenzó a estudiar el cuerpo humano a través de disecciones.
+            Sus dibujos dieron lugar a las primeras y más completas ilustraciones científicas del organismo humano”, destacó.
+            Asimismo, Da Vinci aplicó leyes matemáticas para entender cómo funcionaba el sistema sanguíneo o la mecánica
+            de los movimientos de los ojos. “Se suele sostener que Hermann von Helmholtz o Carl Ludwig fueron en el siglo
+            XIX los primeros bioingenieros, pero los documentos evidencian que el genio italiano había hecho grandes avances
+            en este campo varios siglos atrás”, sentenció Valentinuzzi.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+            Hermann Ludwig Ferdinand von Helmholtz
+          </a>
+        </div>
+        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            Es conciderado el primer bioingeniero.Su primer logro científico importante, un Tratado de 1847 sobre la conservación de
+            la energía, fue escrito en el contexto de sus estudios de medicina y con un trasfondo filosófico. Descubrió el
+            principio de conservación de la energía mientras estudiaba el metabolismo de los músculos. Intentó demostrar
+            que el movimiento muscular supone un intercambio mecánico de energía, y que por lo tanto no era necesaria ninguna
+            fuerza vital para explicarlo.En 1851, Helmholtz revolucionó el campo de la oftalmología con la invención del
+            oftalmoscopio; un instrumento usado para examinar el interior del ojo humano. Este invento le hizo repentinamente
+            famoso.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+            Nicolás Rashevsky
+          </a>
+        </div>
+        <div id="collapseThree" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            <p>Nicolas Rashevsky ( * Chernicov, 1899-1972) fue un biólogo teórico ucraniano. Nacido en Chernicov, Ucrania, estudió física
+            matemática en Rusia, Praga y París.Rashevsky es uno de los representantes más sobresalientes de la biología teórica,
+            siendo uno de los pioneros en la aplicación de modelos matemáticos, desde un enfoque biofísico a problemas biológicos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+<h2 style="visibility: hidden;"id="aplicaciones">ancla</h2>
+<br></br>
+<div class="container">
+  <div class="div-custom">
+      <h2>APLICACIONES DE LA BIOINGENIERIA</h2>
+  </div>
+</div>
+<br>
+<br>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-sm-3 col-4" id="myScrollspy">
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+            <a class="nav-link n2 " href="#section1">Biosensores y Bioelectrónica</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link n2" href="#section2">Bioimpresión 3D</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link n2" href="#section3">Células madre</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link n2" href="#section4">Ingeniería de proteínas</a>
+            
+          </li>
+        </ul>
+      </nav>
+      <div class="col-sm-9 col-8">
+        <div id="section1" class="">
+          <h1>Biosensores y Bioelectrónica</h1>
+          <p>¿Alguna vez te has puesto a observar el movimiento de un gusano? Un gusano presenta un cuerpo flexible, alargado
+            y puede “caminar” sin tener pies. Ahora, imagínate ¿qué pueden tener en común un gusano y un robot? Científicos
+            del Max-Planck Institute han desarrollado un pequeño robot basado en un imán asociado a un vehículo plástico
+            con la capacidad de caminar, arrastrarse, saltar y nadar en ambientes complejos. Una de sus principales ventajas
+            en el futuro es la de transportar medicación a sitios específicos donde es necesaria. Los científicos del proyecto
+            (del Instituto para Sistemas Inteligentes) se inspiraron en el desarrollo de maniobras que realizan ciertos organismos
+            en la naturaleza como es el caso de los gusanos. Para ello han considerado la mecánica relacionada al movimiento
+            de organismos de cuerpos blandos Este millibot, como han llamado a este producto, ha buscado imitar el movimiento
+            que realizan una variedad de criaturas de cuerpos blandos como las larvas de escarabajo y orugas. Sin embargo,
+            espermatozoides y medusas también han servido de ejemplo. Este robot es capaz de realizar diferentes movimientos
+            porque los científicos le han implantado micropartículas magnéticas en su estructura blanda y elástica de silicona.
+            De esta manera resulta en un determinado patrón de magnetización. Esta estructura permite a los científicos operar
+            y controlar al robot a partir de un campo magnético externo. El millibot puede enrollarse, caminar a través de
+            diversas superficies, saltar obstáculos, gatear a través de tubos delgados o nadar en líquidos. Adicionalmente,
+            puede agarrar, transportar y depositar objetos en determinadas locaciones. Los especialistas del grupo de investigación
+            creen que con la ayuda de muchos de estos robots, un cirujano podría tener acceso directo y control preciso en
+            áreas del cuerpo que actualmente no es posible acceder. El objetivo principal de esta investigación es asegurar
+            el acceso a estas regiones del cuerpo de una forma no invasiva para diagnosticar y brindar un tratamiento.</p>
+        </div>
+        <div id="section2" class="">
+          <h1>Bioimpresión 3D para reparar lesiones de médula espinal</h1>
+          <p>Por años un campo de interés en investigación biomédica y en la medicina regenerativa ha sido el investigar los
+            mecanismos de reparación celular con la finalidad de encontrar respuestas y nuevos tratamientos para pacientes
+            que han sufrido algún tipo de daño en algún tejido, siendo el mayor reto hasta ahora poder reparar la médula
+            espinal y cuyo traumatismo a menudo causa problemas de movilidad paralizantes o varios tipos de parálisis en
+            todo el cuerpo. Por lo que los pacientes que han sufrido algún daño en el ven reducida su calidad de vida e independencia,
+            lo cual afecta gravemente no solo al paciente, sino también a la familia. Pero este 9 de agosto del 2018 se dio
+            a conocer los resultados obtenidos por el trabajo multidisciplinario entre un equipo de ingenieros médicos e
+            investigadores de la Universidad de Minnesota en Estados Unidos que desarrollaron un dispositivo médico, mediante
+            impresión 3D, que podría ayudar a los pacientes con lesiones de médula espinal a aliviar el dolor y recuperar
+            algunas funciones musculares; así como recuperar el control de esfínteres y vejiga. Las lesiones en la columna
+            vertebral pueden ser como líneas eléctricas caídas, incluso si todo a cada lado de la lesión es perfectamente
+            funcional, la ruptura puede cerrar de manera efectiva todo el sistema. El dispositivo biomédico desarrollado
+            se basa en una matriz en base de silicona impresa en 3D y que alberga células especializadas que podrían ayudar
+            a unir las células nerviosas de la médula espinal dañada del paciente.
+
+          </p>
+        </div>
+        <div id="section3" class="">
+          <h1>El potencial escondido de las células madre mesenquimales</h1>
+          <p>Las células madre mesenquimales (CMMs) han tenido una gran cobertura mediática recientemente. Esta ha estado principalmente
+            enfocada en su capacidad de renovación de tejidos, sin embargo, existe un potencial que está siendo recientemente
+            explotado en las terapias con CMMs: la inmunomodulación. Empecemos definiendo que son CMMs. La Sociedad Internacional
+            Para la Terapia Celular (ISCT por su siglas en inglés) las define como células pluripotenciales con capacidad
+            de autorrenovación que cumplen con los siguientes criterios: la adherencia al plástico en condiciones estándar
+            de cultivo, la expresión y no expresión dee ciertos marcadores celulares, y la capacidad de diferenciación en
+            distintas líneas celulares.Al reconocer la importancia de esta habilidad, múltiples estudios decidieron evaluar
+            el desempeño de CMMs en el tratamiento de patologías inmunológicas, como la Enfermedad Injerto contra Huésped,
+            Artritis Autoinmune, Enfermedad de Chron, y Síndrome del Intestino Irritable. Sin embargo, aunque algunos resultados
+            fueron prometedores, la variabilidad de metodología entre diferentes estudios no ha permitido obtener conclusiones
+            precisas sobre esta nueva terapia. Esto ha llevado a algunos investigadores a postular que la diferencia de resultados
+            se debe a que existen diversos mecanismos por el que estas propiedades son mediadas, ya sea a través de interacciones
+            celulares a través de receptores o a través de factores solubles. Por lo tanto, más investigación que nos permita
+            entender el mecanismo por el que las CMMs modulan el sistema inmune fisiológicamente y en diferentes patologías
+            nos ayudará a trasladar de forma segura esta terapia a la práctica clínica.</p>
+        </div>
+        <div id="section41" class="">
+          <h1>Ingeniería de proteínas</h1>
+          <p>En los últimos años se ha vuelto común escuchar hablar a científicos, ingenieros e innovadores en general sobre
+            la Biología Sintética y su gran potencial para cambiar al mundo. Muchas Start-Ups basan sus ideas en su fundamento
+            de ver a los diferentes componentes del ADN, como genes, promotores, terminadores, y otras partes, como piezas
+            desmontables, o bio-ladrillos, que pueden ser combinadas de diferentes formas para lograr que un organismo realice
+            el proceso que se desea, como por ejemplo que brille al detectar un contaminante en un río, o que potencie la
+            degradación de algún material indeseable en alta mar. Sin embargo, poco se viene hablando sobre cómo estos conceptos
+            también se pueden aplicar a las proteínas; usualmente definimos al gen en su totalidad como un bio-ladrillo que
+            es movido completo de un constructo genético a otro, y no vemos a su producto final, la proteína, como otra combinación
+            de piezas que podría ser explotable.</p>
+        </div>
+        <div id="section4" class="">
+          <h1>PROTEÍNAS 101 - Estructura y Dominios</h1>
+          <p>Una proteína es una secuencia de aminoácidos, de la misma manera que el ADN es una secuencia de nucleótidos, en
+            ambos casos estas secuencias pueden ser representadas por letras, pero mientras que el ADN utiliza una secuencia
+            de 4 letras, las proteínas son un poco más versátiles, teniendo naturalmente 20 aminoácidos diferentes. Esto
+            le brinda a las proteínas una mayor versatilidad, la cual le brinda propiedades fisicoquímicas muy específicas
+            a las millones de proteínas que existen en la naturaleza.Estos 20 aminoácidos están compuestos por una región
+            que es igual en todos, y que participa en la formación de enlaces químicos entre aminoácidos, y una región específica
+            de cada uno, esta región es la que caracteriza al aminoácido como polares, apolares, hidrofóbicos o hidrofílicos,
+            alifáticos, aromáticos, o cargados positiva o negativamente. A la unión de estos en secuencia se le conoce como
+            estructura primaria, y es básicamente como estos van saliendo de los ribosomas al ser traducidos a partir de
+            un ARN mensajero.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2 style="visibility: hidden;"id="frases">ancla</h2>
+
+  <br >
+  <br>
+  
+  <div class="container">
+    <div class="div-custom">
+        <h2>Frases celebres</h2>
+    </div>  
+  </div>
+  <br>
+  <div class="container-fluid">
+    <div class="container mt-3" >
+      
+
+      <div class="media border p-3">
+        <img src="img/d.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+        <div class="media-body">
+          <h4>René Favaloro
+            <small>
+              <i>Congreso de ingenieria,Buenos Aires,1999</i>
+            </small>
+          </h4>
+          <p>En cada acto medico debe estar el respeto por el paciente y los conceptos eticos y morales ;entonces la ciencia
+            y la conciencia del mismo lado,del lado de la humanidad.</p>
+        </div>
+      </div>
+      <div class="media border p-3">
+        
+        <div class="media-body">
+          <h4>René Favaloro
+            <small>
+              <i>Congreso de ingenieria,Buenos Aires,1999</i>
+            </small>
+          </h4>
+          <p>Los progresos de la medicina y bioingenirìa podràn conciderarse verdaderos logros de la humanidad cuando todas
+            las personas tengan acceso a sus beneficios y dejen de ser un privilegio para las minorìas </p>
+        </div>
+        <img src="img/d.jpg" alt="John Doe" class="mr-3 rounded-circle align-self-center" style="width:60px;">
+      </div>
+      
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <footer>
+      <div class="card text-center bg-custom2">
+          <div class="card-header">
+              Desarrollado por...
+          </div>
+          <div class="card-body bg-custom3">
+            <h5 class="card-title">Manuel Aldair Izquierdo Campos</h5>
+            <p class="card-text">Bio-Ingeniero estudiante de la UTEC</p>
+            <a href="https://www.facebook.com/manuel.izquierdocampos.3?ref=br_rs"><img class="fbhover"   onmouseout="this.src = 'img/fb2.png';" onmouseover="this.src = 'img/fb.png';" src="img/fb2.png"></a>
+            <a data-toggle="popover" data-placement="right" title="+51 994 627 703"><img class="fbhover"   onmouseout="this.src = 'img/wt2.png';" onmouseover="this.src = 'img/wt.png';" src="img/wt2.png"></a>      
+          </div>
+          <div class="card-footer text-muted">
+              A LA VANGUARDIA
+          </div>
+        </div>
+  </footer>
+  <script>
+      $(document).ready(function(){
+          $('[data-toggle="popover"]').popover(); 
+      });
+      </script>
+</body>
+
+</html>
